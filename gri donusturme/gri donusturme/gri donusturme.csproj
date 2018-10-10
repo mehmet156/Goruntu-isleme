@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{85269D83-32BF-4D66-8321-3922C35B2FC8}</ProjectGuid>
+    <ProjectGuid>{4C0E5341-B516-4FC0-B2D9-A9C1AC712B6F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp4</RootNamespace>
-    <AssemblyName>WindowsFormsApp4</AssemblyName>
+    <RootNamespace>gri_donusturme</RootNamespace>
+    <AssemblyName>gri donusturme</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,19 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\Desktop\griye cevirme.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
-      <Link>griye cevirme.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\Desktop\griye cevirme.Designer.cs">
-      <DependentUpon>griye cevirme.cs</DependentUpon>
-      <Link>griye cevirme.Designer.cs</Link>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\..\..\..\Desktop\griye cevirme.resx">
-      <DependentUpon>griye cevirme.cs</DependentUpon>
-      <Link>griye cevirme.resx</Link>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

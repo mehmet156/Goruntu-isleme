@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp4", "WindowsFormsApp4\WindowsFormsApp4.csproj", "{85269D83-32BF-4D66-8321-3922C35B2FC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gri donusturme", "gri donusturme\gri donusturme.csproj", "{4C0E5341-B516-4FC0-B2D9-A9C1AC712B6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{85269D83-32BF-4D66-8321-3922C35B2FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85269D83-32BF-4D66-8321-3922C35B2FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85269D83-32BF-4D66-8321-3922C35B2FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85269D83-32BF-4D66-8321-3922C35B2FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0E5341-B516-4FC0-B2D9-A9C1AC712B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0E5341-B516-4FC0-B2D9-A9C1AC712B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0E5341-B516-4FC0-B2D9-A9C1AC712B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0E5341-B516-4FC0-B2D9-A9C1AC712B6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F95D8D72-650F-4B7B-909E-654AF3B8DD01}
+		SolutionGuid = {42A7BD16-6467-4E8B-B148-F8C90F09EF09}
 	EndGlobalSection
 EndGlobal
